@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="container">
+		<h2>Drag and Drop</h2>
+		<div class="block">
+			<div id="div1" ondrop="drop(event, this)" ondragover="allowDrow(event)">
+			<a href="#" draggable="true" ondragstart="drag(event)" id="drag1">Омоложение</a>
+		    <a href="#" draggable="true" ondragstart="drag(event)" id="drag2">Массаж</a>
+		    <a href="#" draggable="true" ondragstart="drag(event)" id="drag3">Чистка лица</a>
+		</div>
+		<div id="div2" ondrop="drop(event, this)" ondragover="allowDrow(event)">
+		</div>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
